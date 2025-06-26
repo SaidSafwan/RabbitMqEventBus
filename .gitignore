@@ -1,0 +1,44 @@
+## Ignore build results
+bin/
+obj/
+out/
+TestResults/
+*.log
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Visual Studio IDE folder
+.vs/
+
+## Ignore build artifacts
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.db
+*.zip
+
+## Ignore docker artifacts
+*.tar
+docker-compose.override.yml
+
+## Ignore NuGet packages
+*.nupkg
+.nuget/
+packages/
+
+## Others
+*.DS_Store
+Thumbs.db
